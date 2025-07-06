@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinesh Portfolio</title>
+    <meta name="description" content="Portfolio of Reddy Dinesh Venkata Krishna, B.Tech Artificial Intelligence & Machine Learning Graduate specializing in Full Stack Development, Machine Learning, and Software Engineering">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <i class="fas fa-user nav-icon"></i>
+                <span class="nav-title">Portfolio</span>
+            </div>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active" data-page="home">Home</a>
+                <a href="#about" class="nav-link" data-page="about">About</a>
+                <a href="#education" class="nav-link" data-page="education">Education</a>
+                <a href="#projects" class="nav-link" data-page="projects">Projects</a>
+                <a href="#internships" class="nav-link" data-page="internships">Internships</a>
+                <a href="#certificates" class="nav-link" data-page="certificates">Certificates</a>
+            </div>
+            
+            <div class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Home Page -->
+        <section id="home" class="page active">
+            <div class="hero-section">
+                <div class="container">
+                    <div class="hero-content">
+                        <div class="profile-image">
+                            <img src="https://drive.google.com/file/d/17ip7zOVooouQs2tNcqeu6MKGubWrUX0f/view?usp=sharing" alt="Reddy Dinesh Venkata Krishna" class="profile-img">
+                        </div>
+                        <h1 class="hero-title">
+                            Reddy <span class="gradient-text">Dinesh Venkata Krishna</span>
+                        </h1>
+                        <p class="hero-subtitle">
+                            B.Tech Artificial Intelligence & Machine Learning Graduate | Full Stack Developer | Problem Solver
+                        </p>
+                        <p class="hero-description">
+                            Passionate about creating innovative solutions and building impactful technology. 
+                            Experienced in modern web development, machine learning, and software engineering.
+                        </p>
+                        <div class="hero-buttons">
+                            <button class="btn btn-primary" data-page="projects">
+                                View Projects
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                            <button class="btn btn-secondary" data-page="about">
+                                About Me
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Features Section -->
+            <div class="features-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">Explore My Journey</h2>
+                        <p class="section-subtitle">
+                            Discover my academic achievements, professional experiences, and technical expertise
+                        </p>
+                    </div>
+                    
+                    <div class="features-grid">
+                        <div class="feature-card" data-page="projects">
+                            <div class="feature-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h3 class="feature-title">Projects</h3>
+                            <p class="feature-description">Explore my technical projects and innovations</p>
+                        </div>
+                        
+                        <div class="feature-card" data-page="internships">
+                            <div class="feature-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <h3 class="feature-title">Internships</h3>
+                            <p class="feature-description">Professional experience and industry exposure</p>
+                        </div>
+                        
+                        <div class="feature-card" data-page="education">
+                            <div class="feature-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h3 class="feature-title">Education</h3>
+                            <p class="feature-description">Academic background and qualifications</p>
+                        </div>
+                        
+                        <div class="feature-card" data-page="certificates">
+                            <div class="feature-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <h3 class="feature-title">Certificates</h3>
+                            <p class="feature-description">Professional certifications and courses</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats Section -->
+            <div class="stats-section">
+                <div class="container">
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number">4</div>
+                            <div class="stat-label">Projects</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">3</div>
+                            <div class="stat-label">Internships</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">12</div>
+                            <div class="stat-label">Certificates</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">3</div>
+                            <div class="stat-label">Years Learning</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Page -->
+        <section id="about" class="page">
+            <div class="container">
+                <div class="page-header">
+                    <h1 class="page-title">About Me</h1>
+                    <p class="page-subtitle">Get to know me better - my background, skills, and what drives me</p>
+                </div>
+
+                <div class="about-content">
+                    <div class="about-profile">
+                        <div class="card">
+                            <div class="profile-image-large">
+                                <img src="new-profile.jpg" alt="Dinesh Venkata Krishna Reddy" class="profile-img-large">
+                            </div>
+                            <h2 class="profile-name">Reddy Dinesh Venkata Krishna</h2>
+                            <p class="profile-title">B.Tech Artificial Intelligence & Machine Learning</p>
+                            
+                            <div class="contact-info">
+                                <div class="contact-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Tadepalligudem, Andhra Pradesh, India</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-calendar"></i>
+                                    <span>20 years old</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>reddy.venkatakrishna@sasi.ac.in</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-phone"></i>
+                                    <span>+91 9052733927</span>
+                                </div>
+                            </div>
+
+                            <div class="social-links">
+                                <a href="https://github.com/Dineshchow0405" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/reddy-dinesh-venkata-krishna-b15758280" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-details">
+                        <div class="card">
+                            <h3 class="card-title">About</h3>
+                            <div class="about-text">
+                                <p>
+                                    I'm a passionate B.Tech Artificial Intelligence & Machine Learning graduate with a strong foundation in software development and problem-solving. My journey began with curiosity about how technology works and has evolved into a deep passion for creating innovative solutions that make a difference.
+                                </p>
+                                <p>
+                                    Throughout my academic journey, I've worked on various projects ranging from 
+                                    web applications to machine learning models. I believe in writing clean, 
+                                    efficient code and staying up-to-date with the latest technologies and best practices.
+                                </p>
+                                <p>
+                                    When I'm not coding, you can find me exploring new technologies, contributing to 
+                                    open-source projects, or learning about emerging trends in artificial intelligence 
+                                    and cloud computing.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <h3 class="card-title">Technical Skills</h3>
+                            <div class="skills-grid" id="skillsGrid">
+                                <!-- Skills will be populated by JavaScript -->
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <h3 class="card-title">Interests</h3>
+                            <div class="interests-list">
+                                <div class="interest-item">
+                                    <div class="interest-dot purple"></div>
+                                    <div class="interest-content">
+                                        <h4>Technology & Innovation</h4>
+                                        <p>Exploring cutting-edge technologies and their applications</p>
+                                    </div>
+                                </div>
+                                <div class="interest-item">
+                                    <div class="interest-dot blue"></div>
+                                    <div class="interest-content">
+                                        <h4>Open Source</h4>
+                                        <p>Contributing to open-source projects and communities</p>
+                                    </div>
+                                </div>
+                                <div class="interest-item">
+                                    <div class="interest-dot green"></div>
+                                    <div class="interest-content">
+                                        <h4>Continuous Learning</h4>
+                                        <p>Always learning new skills and staying updated with industry trends</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Page -->
+        <section id="education" class="page">
+            <div class="container">
+                <div class="page-header">
+                    <h1 class="page-title">Education</h1>
+                    <p class="page-subtitle">My academic journey and educational achievements</p>
+                </div>
+
+                <div class="education-timeline" id="educationTimeline">
+                    <!-- Education items will be populated by JavaScript -->
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">Relevant Coursework</h3>
+                    <div class="coursework-grid" id="courseworkGrid">
+                        <!-- Coursework will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Page -->
+        <section id="projects" class="page">
+            <div class="container">
+                <div class="page-header">
+                    <h1 class="page-title">Projects</h1>
+                    <p class="page-subtitle">A showcase of my technical projects and innovations</p>
+                </div>
+
+                <div class="filter-buttons" id="projectFilters">
+                    <!-- Filter buttons will be populated by JavaScript -->
+                </div>
+
+                <div class="projects-grid" id="projectsGrid">
+                    <!-- Projects will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Internships Page -->
+        <section id="internships" class="page">
+            <div class="container">
+                <div class="page-header">
+                    <h1 class="page-title">Internships</h1>
+                    <p class="page-subtitle">My professional experience and industry exposure</p>
+                </div>
+
+                <div class="internships-list" id="internshipsList">
+                    <!-- Internships will be populated by JavaScript -->
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">Internship Summary</h3>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number">3</div>
+                            <div class="stat-label">Companies</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">8</div>
+                            <div class="stat-label">Months</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">4</div>
+                            <div class="stat-label">Projects</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">7</div>
+                            <div class="stat-label">Technologies</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificates Page -->
+        <section id="certificates" class="page">
+            <div class="container">
+                <div class="page-header">
+                    <h1 class="page-title">Certificates</h1>
+                    <p class="page-subtitle">Professional certifications and completed courses</p>
+                </div>
+
+                <div class="filter-buttons" id="certificateFilters">
+                    <!-- Filter buttons will be populated by JavaScript -->
+                </div>
+
+                <div class="certificates-grid" id="certificatesGrid">
+                    <!-- Certificates will be populated by JavaScript -->
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">Certification Summary</h3>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number">12</div>
+                            <div class="stat-label">Total Certificates</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">4</div>
+                            <div class="stat-label">Professional Level</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">7</div>
+                            <div class="stat-label">Categories</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">2025</div>
+                            <div class="stat-label">Latest Year</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Contact</h3>
+                    <div class="footer-links">
+                        <div class="footer-link">
+                            <i class="fas fa-envelope"></i>
+                            <span>reddy.venkatakrishna@sasi.ac.in</span>
+                        </div>
+                        <div class="footer-link">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 9052733927</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Connect</h3>
+                    <div class="footer-social">
+                        <a href="https://github.com/Dineshchow0405" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/reddy-dinesh-venkata-krishna-b15758280" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <div class="footer-links">
+                        <a href="#" class="footer-link">Resume</a>
+                        <a href="#" class="footer-link">Portfolio</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 B.Tech Portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
